@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head', {title: "Productos"}) %>
+<body>
+    <!-- HEADER -->
+    <%- include('partials/header') %> 
+
+    <!-- CARRITO -->
+    <main class="carrito">
+        <h2>Carrito</h2> 
+        <div class="detalle-de-carrito">
+            <section>
+                <img src="/images/products/Giant-XTC-JR-20_thumb.png" alt="Bicicleta">
+            </section>
+            <section>
+                Bicicleta XTC SRL 291<br>
+                Cuadro 29<br>
+                Modelo 2020
+            </section>
+            <section>
+                <a href="#" class="less">-</a> 1 <a href="#" class="more">+</a>
+            </section>
+            <section>
+                AR$ 81.500.-
+            </section>
+            <section>
+                AR$ 81.500.-
+            </section>
+        </div>
+        <div class="detalle-de-carrito">
+            <section>
+                <img src="/images/products/pedales_thumb.png" alt="Bicicleta">
+            </section>
+            <section>
+                Bicicleta XTC SRL 291<br>
+                Cuadro 29<br>
+                Modelo 2020
+            </section>
+            <section>
+                <a href="#" class="less">-</a> 2 <a href="#" class="more">+</a>
+            </section>
+            <section>
+                AR$ 22.947.-
+            </section>
+            <section>
+                AR$ 45.894.-
+            </section>
+        </div>        
+    </main>
+    <main class="carrito">
+        <h2>Datos de la compra</h2>
+    </main>
+    <main class="carrito carrito-checkout">
+
+            <section class="formas-de-pago">
+                <h4>Formas de pago</h4>
+                <p>- Mercado Pago</p>
+                <p>- Transferencia bancaria</p>
+                <p>- Efectivo (sólo en local)</p>
+                <img src="/images/mercado-pago.png" alt="Mercado Pago">
+
+
+            </section>
+            <section class="totales">
+                <ul class="totales-left">
+                        <li>Subtotal</li>
+                        <li>Envío</li>
+                        <li>Total</li>
+                    </ul>
+                <ul class="totales-right">
+                    <li>AR$ 127.394.-</li>
+                    <li>-</li>
+                    <li>AR$ 127.394.-</li>
+                </ul>               
+            </section>
+        </div>        
+    </main>    
+    <main class="carrito">
+        <div class="carrito-cta-1">
+            <a href="" class="btn btn-terciary">comprar</a>
+        </div>         
+        <div class="carrito-cta-2">
+            <a href="javascript:history.back()" class="btn btn-secondary">volver a comprar</a>
+            <a href="/main/carritoVacio" class="btn btn-secondary">borrar carrito</a>
+        </div>
+
+    </main>    
+    <!-- FOOTER -->        
+    <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tostadora",
+        "description": "ad lorem ipsum"
+    },
+    {
+        "id": 2,
+        "nombre": "Licuadora",
+        "description": "ad lorem ipsum"
+    },
+    {
+        "id": 3,
+        "nombre": "Cafetera",
+        "description": "ad lorem ipsum"
+    }
+]
